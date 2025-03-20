@@ -1,0 +1,56 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform cache & logs
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.log
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.envrc
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+Thumbs.db
+
+# Ignore compiled binary files
+*.exe
+*.dll
+*.out
+*.so
+*.o
+*.a
+
+# Ignore Node.js dependency folder (if applicable)
+node_modules/
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.swn
+*.swo
