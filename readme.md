@@ -41,17 +41,6 @@ API_SECRET = "your_api_secret"
 
 ---
 
-### **3️⃣ Run the Scripts**
-Execute each script in order:
-
-```bash
-python setup_timesheet.py     # Creates Timesheet module & workflow
-python setup_projects.py      # Creates projects & assigns employees
-python setup_permissions.py   # Grants employees access to Timesheets
-python setup_dashboard.py     # Adds shortcut to Timesheets in dashboard
-```
-
----
 
 ## 📂 **Project Structure**
 ```
@@ -79,6 +68,7 @@ python setup_timesheet.py     # Creates Timesheet module & workflow
 python setup_projects.py      # Creates projects & assigns employees
 python setup_permissions.py   # Grants employees access to Timesheets
 python setup_dashboard.py     # Adds shortcut to Timesheets in dashboard
+python setup_ui.py            # Applies Unanet-style UI theme & custom JavaScript
 ```
 ## OR 
 

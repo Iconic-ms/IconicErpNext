@@ -11,3 +11,12 @@ shortcut_data = {
 }
 
 print(erp_request("POST", "Workspace Shortcut", shortcut_data))
+
+# Ensure Employees See the Correct Workspace
+workspace_data = {
+    "module_name": "Projects",
+    "app_name": "erpnext",
+    "restrict_to_role": "Employee"
+}
+
+print(erp_request("POST", "Module Def", workspace_data))
